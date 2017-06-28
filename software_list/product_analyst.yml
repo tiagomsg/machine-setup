@@ -1,0 +1,9 @@
+homebrew_packages: []
+
+cask_packages:
+    - google-chrome
+    - google-drive
+    - slack
+    - franz
+
+npm_packages: []

@@ -1,0 +1,11 @@
+---
+
+- hosts: all
+  pre_tasks:
+    - name: Load software list to install
+      include_vars:
+        file: software_list/{{ machine_role | default('product_developer') }}.yml
+  roles:
+    - install_homebrew_packages
+    - install_cask_packages
+    - install_npm_packages

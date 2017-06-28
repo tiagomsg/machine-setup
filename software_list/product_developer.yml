@@ -1,0 +1,24 @@
+homebrew_packages:
+  - node
+  - python
+  - python3
+
+cask_packages:
+  - java
+  - android-sdk
+  - virtualbox
+  - docker
+  - google-chrome
+  - google-drive
+  - slack
+  - atom
+  - franz
+
+npm_packages:
+  - bower
+  - gulp
+  - grunt-cli
+  - webpack
+  - vue-cli
+  - babel
+  - npm-check-updates
